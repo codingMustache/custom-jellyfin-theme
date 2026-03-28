@@ -1,4 +1,8 @@
-:root {
+:root,
+:root,
+[data-theme="dark"],
+body,
+#reactRoot {
 	--color-primary: #e50914;
 	--color-secondary: #b20710;
 	--color-bg-default: #101010;
