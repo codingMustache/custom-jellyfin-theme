@@ -205,51 +205,51 @@
 }
 
 .button-submit {
-	background: var(--jf-palette-primary-main);
+	background: var(--jf-palette-primary-main) !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
-	border-color: var(--color-white);
+	border-color: var(--color-white) !important;
 }
 
 .emby-checkbox:checked + span + .checkboxOutline,
 .itemProgressBarForeground {
-	background-color: var(--jf-palette-primary-main);
+	background-color: var(--jf-palette-primary-main) !important;
 }
 .emby-input:focus {
-	border-color: var(--jf-palette-primary-main);
+	border-color: var(--jf-palette-primary-main) !important;
 }
 .inputLabelFocused {
-	color: var(--jf-palette-primary-main);
+	color: var(--jf-palette-primary-main) !important;
 }
 .pageTitleWithDefaultLogo {
-	background: none;
+	background: none !important;
 }
 .skinHeader {
-	background-color: transparent;
-	backdrop-filter: blur(10px);
-	box-shadow: 5px 10px 10px black;
+	background-color: transparent !important;
+	backdrop-filter: blur(10px) !important;
+	box-shadow: 5px 10px 10px black !important;
 }
 button:hover {
 	color: var(--jf-palette-secondary-main);
-	background-color: transparent;
-	scale: 1.1;
+	background-color: transparent !important;
+	scale: 1.1 !important;
 }
 .defaultCardBackground {
-	background-color: var(--jf-palette-primary-main);
+	background-color: var(--jf-palette-primary-main) !important;
 }
 .itemProgressBarForeground {
-	background-color: var(--jf-palette-secondary-main);
+	background-color: var(--jf-palette-secondary-main) !important;
 }
 .countIndicator,
 .fullSyncIndicator,
 .mediaSourceIndicator,
 .playedIndicator {
-	background-color: var(--jf-palette-secondary-main);
+	background-color: var(--jf-palette-secondary-main) !important;
 }
 .cardPadder {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 .cardContent {
-	border-radius: 10%;
-	corner-shape: squircle;
+	border-radius: 10% !important;
+	corner-shape: squircle !important;
 }
