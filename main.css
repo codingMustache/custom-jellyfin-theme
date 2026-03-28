@@ -1,4 +1,6 @@
-:root {
+:root,
+body,
+#reactRoot {
 	/* ============================================
      BASE TOKENS — edit these to change the theme
      ============================================ */
