@@ -208,13 +208,14 @@ body,
 }
 
 button:hover {
-	color: var(--jf-palette-secondary-main) !important;
+	color: var(--jf-palette-secondary-main);
 	background-color: transparent !important;
 	scale: 1.1 !important;
 }
 
 .defaultCardBackground {
 	background-color: var(--jf-palette-primary-main) !important;
+	box-shadow: inset 0px 0px 15px 5px rgba(255, 255, 255, 0.5);
 }
 
 .itemProgressBarForeground {
@@ -234,4 +235,14 @@ button:hover {
 
 .cardContent {
 	border-radius: 10% !important;
+	corner-shape: squircle !important;
+}
+
+.tabs-viewmenubar .emby-button {
+	border-radius: 100px;
+	color: white;
+}
+
+.emby-tab-button-active {
+	color: black;
 }
