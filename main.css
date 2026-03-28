@@ -3,8 +3,8 @@
 [data-theme="dark"],
 body,
 #reactRoot {
-	--color-primary: #e50914;
-	--color-secondary: #b20710;
+	--color-primary: #b20710;
+	--color-secondary: #e50914;
 	--color-bg-default: #101010;
 	--color-bg-paper: #202020;
 	--color-white: #fff;
